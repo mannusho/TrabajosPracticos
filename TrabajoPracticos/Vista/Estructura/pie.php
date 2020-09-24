@@ -14,11 +14,11 @@
 
             <!-- jQuery and Bootstrap. -->
 
-        <script src='../../JS/jQuery v3.5.1/jquery-3.5.1.slim.min.js'></script>
-        <script src='../../JS/Boostrap v.4.5.2/bootstrap.min.js'></script>
-        <script src='../../JS/Boostrap v.4.5.2/bootstrapValidator.min.js'></script>
+        <script src='../../../JS/jQuery v3.5.1/jquery-3.5.1.slim.min.js'></script>
+        <script src='../../../JS/Boostrap v.4.5.2/bootstrap.min.js'></script>
+        <script src='../../../JS/Boostrap v.4.5.2/bootstrapValidator.min.js'></script>
         <!-- Archivo personal de validaciones -->
-        <script src='../../JS/Boostrap v.4.5.2/validator.js'></script>
+        <script src='../../../JS/Boostrap v.4.5.2/validator.js'></script>
         
 
     </body>

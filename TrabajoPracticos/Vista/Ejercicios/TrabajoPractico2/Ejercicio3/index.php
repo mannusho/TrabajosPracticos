@@ -34,7 +34,7 @@ include_once("../../../Estructura/cabecera.php");
             </div>
             <br>
 
-            <form class="form-signin" action="verificaPass.php" method="POST" id="ejecicio" name="tp2ej3">
+            <form class="form-signin" action="verificaPass.php" method="POST" id="tp2ej3" name="tp2ej3" data-toggle="validator" >
                 <h1 class="h3 mb-3 font-weight-normal">Login member</h1>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">

@@ -22,7 +22,7 @@ include_once("../../../Estructura/cabecera.php");
             </div>
         </div>
         <br>
-        <form action="accion.php" method="POST" id="form" id="eje6" name="eje6">
+        <form action="accion.php" method="POST" id="tp1ej6" name="eje6" data-toggle="validator">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
                     <label for="nombre">Nombre </label>

@@ -5,6 +5,9 @@
          <!-- CSS & JS -->
         <link rel="stylesheet" href="../../../CSS/Boostrap v.4.5.2/bootstrap.min.css">
         <link rel="stylesheet" href="../../../CSS/Boostrap v.4.5.2/bootstrapValidator.min.css">
+        <!-- icons -->
+        <link rel="stylesheet" href="../../../CSS/Icons/icons.css">
+
         
        
     </head>

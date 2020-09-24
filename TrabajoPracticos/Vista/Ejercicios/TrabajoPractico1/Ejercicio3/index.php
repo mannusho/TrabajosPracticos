@@ -24,23 +24,23 @@ include_once("../../../Estructura/cabecera.php");
         </div>
     </div>
     <br>
-    <form action="accion.php" method="POST" id="eje3" name="eje3">
+    <form action="accion.php" method="POST" id="tp1ej3" name="eje3"  data-toggle="validator"  >
         <div class="form-row">
             <div class="col-md-6 mb-3">
-            <label for="nombre">Nombre </label>
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ejemplo: Homero" required>
+                <label for="nombre">Nombre </label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ejemplo: Homero" >
             </div>
             <div class="col-md-6 mb-3">
             <label for="apellido">Apellido </label>
-            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ejemplo: Thompson" required>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ejemplo: Thompson" >
             </div>
             <div class="col-md-6 mb-3">
             <label for="edad">Edad </label>
-            <input type="text" class="form-control" id="edad" name="edad" placeholder="Ejemplo: 18" required>
+            <input type="text" class="form-control" id="edad" name="edad" placeholder="Ejemplo: 18" >
             </div>
             <div class="col-md-6 mb-3">
             <label for="direccion">Direccion </label>
-            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ejemplo: calle falsa 123" required>
+            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ejemplo: calle falsa 123" >
             </div>
         </div>
         <button type="submit" class="btn btn-dark"> enviar </button>

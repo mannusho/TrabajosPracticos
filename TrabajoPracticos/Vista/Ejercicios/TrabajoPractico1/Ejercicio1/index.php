@@ -21,14 +21,14 @@ include_once("../../../Estructura/cabecera.php");
                 <span class="badge badge-secondary">EJ 1</span>
             </div>
       </div>
-    <form action="accion.php" method="GET" id="ejercicio" name="eje1" data-toggle="validator">
+    <form action="accion.php" method="GET" id="tp1ej1" name="eje1"  data-toggle="validator" >
         <div class="form-row">
           <div class="col-md-3 mb-3">
                 <label for="numero">Ingrese un numero </label>
                 <input type="text" class="form-control" id="numero" name="numero" placeholder="Ejemplo: 7" required>
-                <div class="invalid-feedback">
+                <!--<div class="invalid-feedback">
                     Debe ingresar un numero
-                </div>
+                </div> -->
           </div>
         </div>
         <button type="submit" class="btn btn-dark"> enviar </button>  

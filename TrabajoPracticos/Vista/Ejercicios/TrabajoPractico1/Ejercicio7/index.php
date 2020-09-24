@@ -25,7 +25,7 @@ include_once("../../../Estructura/cabecera.php");
             </div>
         </div>
         <br>
-        <form action="accion.php" method="POST" id="eje7" name="eje7">
+        <form action="accion.php" method="POST" id="tp1ej7" name="eje7" data-toggle="validator">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
                 <label for="valor1">Ingrese el primer valor </label>

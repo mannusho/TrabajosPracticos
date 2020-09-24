@@ -41,7 +41,7 @@ include_once("../../../Estructura/cabecera.php");
                         </div><br>
                     <div class="col-md-12  order-md-1">
                         
-                        <form class="form-signin" action="accion.php" method="POST" id="ejecicio" name="tp2ej4">
+                        <form class="form" action="accion.php" method="POST" id="tp2ej4" name="tp2ej4" data-toggle="validator">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="firstName">Titulo</label>
@@ -84,7 +84,7 @@ include_once("../../../Estructura/cabecera.php");
 
                                 <div class="col-md-3 mb-3">
                                     <label for="year">A&ntilde;o</label>
-                                    <input type="text" class="form-control" id="year" name="year" placeholder="Ej: 2020" required>
+                                    <input type="text" class="form-control" id="year" name="year" maxlength="4" placeholder="Ej: 2020" required>
                                     <div class="invalid-feedback">
                                     Ingrese el año de la pelicula
                                     </div>
@@ -101,7 +101,6 @@ include_once("../../../Estructura/cabecera.php");
                                 <div class="col-md-4 mb-3">
                                     <label for="genero">Genero</label>
                                         <select class="custom-select d-block w-100" id="genero" name="genero" required>
-                                            <option disabled>Choose...</option>
                                             <option value="comedia">Comedia</option>
                                             <option value="terror">Terror</option>
                                             <option value="accion">Accion</option>
@@ -115,23 +114,23 @@ include_once("../../../Estructura/cabecera.php");
                             
                                 <div class="col-md-3 mb-3">
                                     <label for="minutos">Duracion</label>
-                                    <input type="text" class="form-control" id="minutos" name="minutos" placeholder="Ej: 120" required><span>(Minutos)</span>
+                                    <input type="text" class="form-control" id="minutos" name="minutos" maxlength="3" placeholder="Ej: 120" required><label for="minutos">(Minutos)</label>
                                     <div class="invalid-feedback">
                                     Ingrese la duracion
                                     </div>
                                 </div>
 
-                                <div class="d-block col-md-3 mb-3">
+                                <div class= "col-md-6 mb-3">
                                     <label for="edad">Restricciones de edad </label>
-                                    <div class="form-check form-check-inline">
+                                    <div class="form-check form-check">
                                         <input class="form-check-input" type="radio" name="edad" id="edad" value="tp">
                                         <label class="form-check-label" for="edad">Todos los publicos </label>
                                     </div>
-                                    <div class="form-check form-check-inline">
+                                    <div class="form-check form-check">
                                         <input class="form-check-input" type="radio" name="edad" id="edad" value="ms">
                                         <label class="form-check-label" for="edad">Mayor de 7 años </label>
                                     </div>
-                                    <div class="form-check form-check-inline">
+                                    <div class="form-check form-check">
                                         <input class="form-check-input" type="radio" name="edad" id="edad" value="md">
                                         <label class="form-check-label" for="edad">Mayor de 18 años </label>
                                     </div>

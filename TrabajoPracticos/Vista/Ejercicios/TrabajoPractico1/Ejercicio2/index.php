@@ -24,27 +24,27 @@ include_once("../../../Estructura/cabecera.php");
         </div>
         </div>
 
-    <form action="accion.php" method="GET" id="ejecicio2" name="eje2">
+    <form action="accion.php" method="GET" id="tp1ej2" name="eje2" data-toggle="validator" >
         <div class="form-row">
             <div class="col-md-6 mb-3">
             <label for="Array">Lunes </label>
-            <input type="text" class="form-control" id="Array1" name="Array[]" placeholder="Ingrese el numero de horas" required>
+            <input type="text" class="form-control" id="Array1" name="lunes" placeholder="Ingrese el numero de horas" required>
             </div>
             <div class="col-md-6 mb-3">
             <label for="Array">Martes </label>
-            <input type="text" class="form-control" id="Array2" name="Array[]" placeholder="Ingrese el numero de horas" required>
+            <input type="text" class="form-control" id="Array2" name="martes" placeholder="Ingrese el numero de horas" required>
             </div>
             <div class="col-md-6 mb-3">
             <label for="Array">Miercoles </label>
-            <input type="text" class="form-control" id="Array3" name="Array[]" placeholder="Ingrese el numero de horas" required>
+            <input type="text" class="form-control" id="Array3" name="miercoles" placeholder="Ingrese el numero de horas" required>
             </div>
             <div class="col-md-6 mb-3">
             <label for="Array">Jueves </label>
-            <input type="text" class="form-control" id="Array4" name="Array[]" placeholder="Ingrese el numero de horas" required>
+            <input type="text" class="form-control" id="Array4" name="jueves" placeholder="Ingrese el numero de horas" required>
             </div>
             <div class="col-md-6 mb-3">
             <label for="Array">Viernes </label>
-            <input type="text" class="form-control" id="Array5" name="Array[]" placeholder="Ingrese el numero de horas" required>
+            <input type="text" class="form-control" id="Array5" name="viernes" placeholder="Ingrese el numero de horas" required>
             </div>
         </div>
         <button type="submit" class="btn btn-dark"> enviar </button>

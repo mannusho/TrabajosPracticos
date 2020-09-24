@@ -24,7 +24,7 @@ include_once("../../../Estructura/cabecera.php");
                 </div>
             </div>
             <br>
-            <form action="accion.php" method="POST" id="eje8" name="eje8">
+            <form action="accion.php" method="POST" id="tp1ej8" name="eje8" data-toggle="validator">
                 <div class="form-group row">
                     <div class="col-md-3 mb-3">
                     <label for="age">Ingrese su edad </label>
