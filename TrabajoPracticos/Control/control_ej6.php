@@ -29,7 +29,7 @@ class control_ej6{
     
             //verificacion de deporte
             // realizando una sumatoria
-            $sumatoria = 0;
+            $sumatoria = -1;
             for($i=0;$i < count($deportes);$i++){
                 $sumatoria = $sumatoria + 1;
             }

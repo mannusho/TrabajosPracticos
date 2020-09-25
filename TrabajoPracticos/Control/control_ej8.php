@@ -8,13 +8,11 @@
             $estudiante = $datos["estudiante"];
                 
 
-                    if ($estudiante == "S"){
-                        if( $age >= 12){
-                            $texto = "<p> El precio es de 180 pesos </p>";
-                        }elseif ($age < 12){
+                    if($age <= 12){
                         $texto = "<p> El precio es de 160 pesos </p>";
-                        }
-                    }else{
+                    } elseif( $age >= 12 && $estudiante == "S"){
+                        $texto = "<p> El precio es de 180 pesos </p>";
+                    } else {
                         $texto = "<p> El precio es 300 pesos </p>";
                     }
 

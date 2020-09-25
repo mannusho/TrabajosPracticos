@@ -4,15 +4,15 @@
 $('#tp1ej1').bootstrapValidator({
     message: 'Este valor no es valido',
 
-	 feedbackIcons: {
+        feedbackIcons: {
 
-		 valid: 'fa fa-check',
+            valid: 'fa fa-check',
 
-		 invalid: 'fa fa-hand-paper',
+            invalid: 'fa fa-hand-paper',
 
-         validating: 'fa fa-circle'
-         
-     },
+            validating: 'fa fa-circle'
+
+        },
 
         fields: {
 

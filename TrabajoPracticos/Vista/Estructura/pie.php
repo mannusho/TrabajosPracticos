@@ -1,7 +1,7 @@
 </div>
     </div>
         </div>
-            <footer class="text-muted">
+            <footer class="text-muted" style="background-color:#A7B3A5; border-top-left-radius: 5px; border-top-right-radius: 5px" >
                     <div class="container p-3">
                         <p class="float-right mt-auto py-3">
                         <a href="#">Volvamos al inicio</a>
@@ -19,6 +19,7 @@
         <script src='../../../JS/Boostrap v.4.5.2/bootstrapValidator.min.js'></script>
         <!-- Archivo personal de validaciones -->
         <script src='../../../JS/Boostrap v.4.5.2/validator.js'></script>
+        
         
 
     </body>

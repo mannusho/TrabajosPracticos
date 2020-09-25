@@ -112,6 +112,12 @@ include_once("../../../Estructura/cabecera.php");
                                     Voley
                                 </label>
                             </div>
+                            <div class="form-check" hidden>
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="nada" checked>
+                                <label class="form-check-label" for="deporte">
+                                    Voley
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
