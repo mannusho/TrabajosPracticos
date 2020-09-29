@@ -1,5 +1,6 @@
 <html>
     <head>
+        <!-- titulo -->
         <title><?PHP $Titulo?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <!-- CSS & JS -->
